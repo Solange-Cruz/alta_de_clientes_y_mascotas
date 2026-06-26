@@ -1,18 +1,21 @@
 # Trabajo Practico Integrador (TPI) - Programacion Avanzada 2026
 
-Comision: 
-Alta de Clientes y Mascotas en un Sistema de Gestion Veterinaria
-Autores
-   Andrade, David
-   Cruz, Solange
-   Gomez Bonacorsi, Emiliano
-   Prieto, Sebastian
+
+**Alta de Clientes y Mascotas en un Sistema de Gestion Veterinaria**
+Comision:2
+
+Autores:
+   - Andrade, David
+   - Cruz, Solange
+   - Gomez Bonacorsi, Emiliano
+   - Prieto, Sebastian
 
 ## Descripcion
 
-VetApp es un sistema de gestion para clinicas veterinarias desarrollado en Python que permite administrar clientes y sus mascotas. La aplicacion demuestra la aplicacion de conceptos fundamentales de Programacion Orientada a Objetos, Patrones de Diseño y Modelado UML.
+VetApp es un sistema de gestion para clinicas veterinarias desarrollado en Python que permite administrar clientes y sus mascotas. Demuestra la aplicacion de conceptos fundamentales de Programacion Orientada a Objetos, Patrones de Diseño y Modelado UML.
 
 ## Estructura del Proyecto
+
 alta_de_clientes_y_mascotas/
 ├── main.py # Punto de entrada
 ├── menu.py # Menu interactivo
@@ -152,8 +155,6 @@ Funcionalidades
 
 
 Diagrama UML
-
-Diagrama ER 
 
 
 Licencia

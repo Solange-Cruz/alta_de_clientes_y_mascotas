@@ -115,8 +115,8 @@ class Cliente:
         }
     
     def __str__(self) -> str:
-        mascotas_str = f"({self.cant_mascotas} mascota{'s' if self.cant_mascotas != 1 else ''})"
-        return f"ID: {self._id} - {self.nombre_completo} {mascotas_str}"
+        #mascotas_str = f"({self.cant_mascotas} mascota{'s' if self.cant_mascotas != 1 else ''})"
+        return f"ID: {self._id} - {self.nombre_completo}"# {mascotas_str}"
 
 
 class Animal:

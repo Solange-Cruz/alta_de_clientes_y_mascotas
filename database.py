@@ -196,7 +196,7 @@ def crear_mascota(data: dict) -> int:
             data.get("raza", "").strip() or None,
             data.get("fecha_nac", "").strip() or None,
             data.get("sexo", "desconocido"),
-            float(data["peso_kg"]) if data.get("peso_kg") and data["peso_kg"].strip() else None,
+            float(data["peso_kg"]) if data.get("peso_kg") and data["peso_kg"] else None,
             data.get("color", "").strip() or None,
             1 if data.get("castrado") else 0,
         ))
@@ -216,7 +216,7 @@ def actualizar_mascota(mascota_id: int, data: dict):
             data.get("raza", "").strip() or None,
             data.get("fecha_nac", "").strip() or None,
             data.get("sexo", "desconocido"),
-            float(data["peso_kg"]) if data.get("peso_kg") and data["peso_kg"].strip() else None,
+            float(data["peso_kg"]) if data.get("peso_kg") and data["peso_kg"] else None,
             data.get("color", "").strip() or None,
             1 if data.get("castrado") else 0,
             mascota_id,

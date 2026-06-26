@@ -146,7 +146,7 @@ Base de Datos
       color (TEXT)
       castrado (INTEGER)
       activo (INTEGER)
-
+```
 Funcionalidades
    Gestion de clientes (CRUD)
    Gestion de mascotas (CRUD)
@@ -154,7 +154,8 @@ Funcionalidades
    Visualizacion de relaciones cliente-mascota
 
 
-Diagrama UML
+[Diagrama UML y presentación]
+(https://drive.google.com/file/d/1hzy2pMbjkptobWGdj6uXGO7IUKUebV9F/view?usp=drivesdk)
 
 
 Licencia
